@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+    margin:0% 0%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

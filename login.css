@@ -1,0 +1,67 @@
+@charset "utf-8";
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2F2F2F;
+  width:300;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  
+  text-align: center;
+  color:#64B461;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+input[type=text], input[type=password] ,input[type=file]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.text
+{
+	  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box
+}
+
+button {
+    background-color:#2F2F2F;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2F2F2F;
+  width:300;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  
+  text-align: center;
+  color:#64B461;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.foot{
+        color: #fefefe;
+        position: fixed; /* Set the navbar to fixed position */
+        bottom: 0; /* Position the navbar at the bottom of the page */
+        width: 0; /* Full width */
+        background-color: #333;
+    }
+

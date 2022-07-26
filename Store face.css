@@ -1,0 +1,20 @@
+@charset "utf-8";
+div.pic
+{
+	margin: 5px;
+	border: 0px solid #453F27;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+	
+}
+div.pic img
+{
+	display: inline;
+	margin: 0px;
+	border: 0px solid #492B2C;
+	
+}
+div.pic a:hover img {border: 2px solid #274347;}
+
